@@ -17,7 +17,8 @@
 	"uniqueId": "tjbcweyaz1w",
 	"objectTypes": {
 		"items": [
-			"Prota"
+			"Prota",
+			"BadGuy"
 		],
 		"subfolders": []
 	},

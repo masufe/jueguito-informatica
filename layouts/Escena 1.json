@@ -19,10 +19,39 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 627.6926840363454,
-						"y": 461.74390336362126,
+						"x": 163,
+						"y": 185,
 						"width": 167.38536807269088,
 						"height": 139.4878067272424,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BadGuy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Flotar",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 403.37193768122097,
+						"y": 215.94576541331088,
+						"width": 142.743875362442,
+						"height": 165.89153082662176,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
