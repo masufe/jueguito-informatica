@@ -5,8 +5,38 @@
 			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
-			"sid": 762241557111102,
+			"instances": [
+				{
+					"type": "Prota",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Prota",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 627.6926840363454,
+						"y": 461.74390336362126,
+						"width": 167.38536807269088,
+						"height": 139.4878067272424,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 250450735263488,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -17,9 +47,9 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
-				1,
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
 				1
 			],
 			"isTransparent": false,
@@ -35,7 +65,7 @@
 			"global": false
 		}
 	],
-	"sid": 953705402515007,
+	"sid": 769083747649180,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
