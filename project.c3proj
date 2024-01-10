@@ -18,7 +18,9 @@
 	"objectTypes": {
 		"items": [
 			"Prota",
-			"BadGuy"
+			"BadGuy",
+			"puertaAbierta",
+			"puertaCerrada"
 		],
 		"subfolders": []
 	},
