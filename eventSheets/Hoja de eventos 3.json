@@ -1,0 +1,141 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "dialogoFinalBosss",
+					"sid": 115290448349495
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "preguntaFinalBoss",
+					"sid": 100198256584376,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaAbierta",
+					"sid": 467639137489493,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R1FinalBoss",
+					"sid": 187120092794424,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R2FinalBoss",
+					"sid": 218132647965608,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R3FinalBoss",
+					"sid": 210475363750006,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 872788284515666
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "siguiente",
+					"sid": 306265066679479
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "dialogoFinalBosss",
+					"sid": 128135674311198,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "preguntaFinalBoss",
+					"sid": 545204833357917,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R1FinalBoss",
+					"sid": 277920394634195,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R2FinalBoss",
+					"sid": 499845728276716,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R3FinalBoss",
+					"sid": 810965609314466,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 321129745680639
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "R2FinalBoss",
+					"sid": 697295432124844
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "puertaCerrada",
+					"sid": 270140562106426,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaAbierta",
+					"sid": 944591306879939,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 440617921316656
+		}
+	],
+	"sid": 733166641704492
+}

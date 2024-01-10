@@ -8,8 +8,22 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -18,7 +32,30 @@
 	"objectTypes": {
 		"items": [
 			"Prota",
-			"BadGuy"
+			"BadGuy",
+			"puertaAbierta",
+			"puertaCerrada",
+			"menuStart",
+			"start",
+			"fondoMazmorra",
+			"dialogo1",
+			"dialogo2",
+			"siguiente",
+			"preguntaUno",
+			"ocho",
+			"seis",
+			"doce",
+			"dialogoFinalBosss",
+			"preguntaFinalBoss",
+			"finalBoss",
+			"R1FinalBoss",
+			"R2FinalBoss",
+			"R3FinalBoss",
+			"fondoGameOver",
+			"gameOver",
+			"restart",
+			"pradera",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -30,13 +67,21 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2",
+			"finalboss",
+			"fin del juego",
+			"final bueno del juego"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},
