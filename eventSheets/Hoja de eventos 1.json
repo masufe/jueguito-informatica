@@ -1,5 +1,42 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "start",
+					"sid": 388687860366398
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 659262261732753,
+					"parameters": {
+						"layout": "\"Escena 2\""
+					}
+				}
+			],
+			"sid": 430935919417044
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Prota",
+					"sid": 566745611252774,
+					"parameters": {
+						"animation": "\"Prota\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 578762563649749
+		}
+	],
 	"sid": 350803252569721
 }

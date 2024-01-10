@@ -1,0 +1,176 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-visible",
+					"objectClass": "dialogo1",
+					"sid": 195741179177332
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "dialogo2",
+					"sid": 701884385355860,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "doce",
+					"sid": 757760376192957,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "seis",
+					"sid": 803414021662880,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ocho",
+					"sid": 344268664101541,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "preguntaUno",
+					"sid": 731424005937420,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 431426530105922
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "siguiente",
+					"sid": 927937406797175
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "dialogo1",
+					"sid": 845086819557494,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "dialogo2",
+					"sid": 907190016731663,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 681289291806391
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "siguiente",
+					"sid": 350659293834194
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "dialogo2",
+					"sid": 183417336667455,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "preguntaUno",
+					"sid": 881960381499642,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "ocho",
+					"sid": 986167888700572,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "doce",
+					"sid": 159203316450226,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "seis",
+					"sid": 427541004418852,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 709249298066643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ocho",
+					"sid": 692355355473489
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "puertaCerrada",
+					"sid": 486327357385063,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaAbierta",
+					"sid": 989224786568030,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 158504838985875
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 485395009934568
+		}
+	],
+	"sid": 692690501889951
+}
