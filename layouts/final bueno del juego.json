@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "final bueno del juego",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "menuStart",
+					"type": "pradera",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 428.5,
-						"y": 252,
-						"width": 866,
-						"height": 614,
+						"x": 431,
+						"y": 243,
+						"width": 879,
+						"height": 531,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -33,37 +33,6 @@
 						],
 						"angle": 0,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "start",
-					"properties": {
-						"type": "button",
-						"text": "Start",
-						"tooltip": "Comenzar juego",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 344,
-						"y": 246,
-						"width": 170,
-						"height": 48,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
 					}
 				},
 				{
@@ -75,14 +44,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 43,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 582,
-						"y": 400,
-						"width": 167.38536807269088,
-						"height": 139.4878067272424,
+						"x": 406,
+						"y": 391,
+						"width": 170.38536807269088,
+						"height": 134.4878067272424,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -94,9 +63,69 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 549,
+						"y": 85,
+						"width": 271,
+						"height": 218.00000000000003,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "restart",
+					"properties": {
+						"type": "button",
+						"text": "Re-start",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 45,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 575,
+						"y": 143,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
-			"sid": 250450735263488,
+			"sid": 658428898277815,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -125,7 +154,7 @@
 			"global": false
 		}
 	],
-	"sid": 769083747649180,
+	"sid": 761566905746459,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -134,5 +163,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "Hoja de eventos 5"
 }

@@ -50,6 +50,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaAbierta",
+					"sid": 922746607695695,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 431426530105922
@@ -161,15 +169,25 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaCerrada",
+					"sid": 807187132148454,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "puertaCerrada",
+					"sid": 378012040112814,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 158504838985875
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 485395009934568
 		}
 	],
 	"sid": 692690501889951

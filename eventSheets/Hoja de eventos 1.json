@@ -12,11 +12,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 659262261732753,
+					"sid": 294892089547921,
 					"parameters": {
-						"layout": "\"Escena 2\""
+						"layout": "Escena 2"
 					}
 				}
 			],
@@ -24,16 +24,7 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-animation-playing",
-					"objectClass": "Prota",
-					"sid": 566745611252774,
-					"parameters": {
-						"animation": "\"Prota\""
-					}
-				}
-			],
+			"conditions": [],
 			"actions": [],
 			"sid": 578762563649749
 		}

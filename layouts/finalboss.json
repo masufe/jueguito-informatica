@@ -1,11 +1,40 @@
 {
-	"name": "Escena 2",
+	"name": "finalboss",
 	"layers": [
 		{
-			"name": "pregunta 1",
+			"name": "Capa 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
+				{
+					"type": "finalBoss",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 430,
+						"y": 243,
+						"width": 906,
+						"height": 501,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "fondoMazmorra",
 					"properties": {
@@ -15,12 +44,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 421,
-						"y": 240,
+						"x": 431,
+						"y": 242,
 						"width": 901,
 						"height": 495,
 						"originX": 0.5,
@@ -29,153 +58,7 @@
 							1,
 							1,
 							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "BadGuy",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Flotar",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 614,
-						"y": 382,
-						"width": 90.743875362442,
-						"height": 107.89153082662176,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Prota",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Prota",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 110.30578512396698,
-						"y": 390.0909090909091,
-						"width": 102.38536807269088,
-						"height": 92.4878067272424,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "dialogo1",
-					"properties": {
-						"text": "¡Bienvenido, intrépido! Has caído en mi mazmorra. Para salir, debes superar preguntas astutas. ",
-						"enable-bbcode": true,
-						"font": "Lucida Sans",
-						"size": 11,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 372,
-						"y": 323,
-						"width": 200,
-						"height": 103,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "dialogo2",
-					"properties": {
-						"text": "Solo los sabios merecen libertad. ¿Listo para tu desafío, o prefieres la oscuridad eterna.",
-						"enable-bbcode": true,
-						"font": "Lucida Sans",
-						"size": 11,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 344,
-						"y": 367,
-						"width": 200,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
+							0.5
 						],
 						"angle": 0,
 						"zElevation": 0
@@ -194,12 +77,12 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 15,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 752,
-						"y": 398,
+						"x": 763,
+						"y": 399,
 						"width": 72,
 						"height": 24,
 						"originX": 0,
@@ -213,96 +96,9 @@
 					}
 				},
 				{
-					"type": "puertaCerrada",
+					"type": "preguntaFinalBoss",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 254,
-						"y": 121,
-						"width": 220,
-						"height": 237,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "puertaCerrada",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 429,
-						"y": 120,
-						"width": 219.99999999999997,
-						"height": 237,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "puertaCerrada",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 591,
-						"y": 119,
-						"width": 219.99999999999997,
-						"height": 237,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "preguntaUno",
-					"properties": {
-						"text": "Aquí va mi primera pregunta...\n\n¿Cuántos bits son un byte?",
+						"text": "¿Cuál es la función principal de un firewall en una red informática?",
 						"enable-bbcode": true,
 						"font": "Lucida Sans",
 						"size": 11,
@@ -323,14 +119,14 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 19,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 324,
-						"y": 347,
-						"width": 227,
-						"height": 87,
+						"x": 311,
+						"y": 359,
+						"width": 270,
+						"height": 53,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -344,10 +140,170 @@
 					}
 				},
 				{
-					"type": "ocho",
+					"type": "dialogoFinalBosss",
+					"properties": {
+						"text": "ESTA ES TU ÚLTIMA PRUEBA SABIONDO...",
+						"enable-bbcode": true,
+						"font": "Lucida Sans",
+						"size": 11,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 377,
+						"y": 357,
+						"width": 168,
+						"height": 74,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Prota",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Prota",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 194,
+						"y": 383,
+						"width": 128.38536807269088,
+						"height": 115.4878067272424,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "puertaCerrada",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 164,
+						"y": 119,
+						"width": 254,
+						"height": 254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "puertaCerrada",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 31,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 439,
+						"y": 119,
+						"width": 254,
+						"height": 254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "puertaCerrada",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 677,
+						"y": 119,
+						"width": 254,
+						"height": 254,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "R1FinalBoss",
 					"properties": {
 						"type": "button",
-						"text": "8",
+						"text": "Gestionar las cuentas de usuario y contraseñas.",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -356,14 +312,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 20,
+					"uid": 33,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 218,
-						"y": 186,
-						"width": 72,
-						"height": 24,
+						"x": 62,
+						"y": 182,
+						"width": 198,
+						"height": 47,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -375,10 +331,10 @@
 					}
 				},
 				{
-					"type": "seis",
+					"type": "R2FinalBoss",
 					"properties": {
 						"type": "button",
-						"text": "6",
+						"text": "Proteger contra virus y malware.",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -387,14 +343,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 21,
+					"uid": 34,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 393,
-						"y": 186,
-						"width": 72,
-						"height": 24,
+						"x": 343,
+						"y": 188,
+						"width": 187,
+						"height": 39,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -406,10 +362,10 @@
 					}
 				},
 				{
-					"type": "doce",
+					"type": "R3FinalBoss",
 					"properties": {
 						"type": "button",
-						"text": "12",
+						"text": "Mejorar la velocidad de la conexión a Internet.",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -418,14 +374,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 22,
+					"uid": 35,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 558,
-						"y": 186,
-						"width": 72,
-						"height": 24,
+						"x": 593,
+						"y": 182,
+						"width": 166,
+						"height": 48,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -434,6 +390,35 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "BadGuy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Flotar",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 36,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 637,
+						"y": 388,
+						"width": 90.743875362442,
+						"height": 111.89153082662176,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -445,14 +430,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 23,
+					"uid": 37,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 254,
-						"y": 121,
-						"width": 218,
-						"height": 246,
+						"x": 440,
+						"y": 118,
+						"width": 255,
+						"height": 259,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -466,7 +451,7 @@
 					}
 				}
 			],
-			"sid": 494034117693544,
+			"sid": 731757041382284,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -493,42 +478,9 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
-		},
-		{
-			"name": "pregunta 2",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [],
-			"sid": 565565525233305,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"isInitiallyInteractive": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
 		}
 	],
-	"sid": 967565750563809,
+	"sid": 719220827319362,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -537,5 +489,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Hoja de eventos 3"
 }

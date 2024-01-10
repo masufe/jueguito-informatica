@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "fin del juego",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "menuStart",
+					"type": "fondoGameOver",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 38,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 428.5,
-						"y": 252,
-						"width": 866,
-						"height": 614,
+						"x": 436,
+						"y": 241,
+						"width": 868,
+						"height": 792,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,11 +36,69 @@
 					}
 				},
 				{
-					"type": "start",
+					"type": "gameOver",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 39,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 479,
+						"y": 87,
+						"width": 290.00000000000006,
+						"height": 249.00000000000003,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BadGuy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Flotar",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 483,
+						"y": 397,
+						"width": 142.743875362442,
+						"height": 154.89153082662176,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "restart",
 					"properties": {
 						"type": "button",
-						"text": "Start",
-						"tooltip": "Comenzar juego",
+						"text": "Re-start",
+						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
 						"auto-font-size": true,
@@ -48,14 +106,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 2,
+					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 344,
-						"y": 246,
-						"width": 170,
-						"height": 48,
+						"x": 441,
+						"y": 164,
+						"width": 72,
+						"height": 24,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -65,38 +123,9 @@
 							1
 						]
 					}
-				},
-				{
-					"type": "Prota",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Prota",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 12,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 582,
-						"y": 400,
-						"width": 167.38536807269088,
-						"height": 139.4878067272424,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 250450735263488,
+			"sid": 297362389152079,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -125,7 +154,7 @@
 			"global": false
 		}
 	],
-	"sid": 769083747649180,
+	"sid": 304414884116900,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -134,5 +163,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "Hoja de eventos 4"
 }

@@ -45,7 +45,17 @@
 			"ocho",
 			"seis",
 			"doce",
-			"fondoFinalBoss"
+			"dialogoFinalBosss",
+			"preguntaFinalBoss",
+			"finalBoss",
+			"R1FinalBoss",
+			"R2FinalBoss",
+			"R3FinalBoss",
+			"fondoGameOver",
+			"gameOver",
+			"restart",
+			"pradera",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -59,7 +69,9 @@
 		"items": [
 			"Escena 1",
 			"Escena 2",
-			"Escena 3"
+			"finalboss",
+			"fin del juego",
+			"final bueno del juego"
 		],
 		"subfolders": []
 	},
@@ -67,7 +79,9 @@
 		"items": [
 			"Hoja de eventos 1",
 			"Hoja de eventos 2",
-			"Hoja de eventos 3"
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5"
 		],
 		"subfolders": []
 	},

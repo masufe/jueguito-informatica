@@ -1,0 +1,42 @@
+{
+	"name": "Hoja de eventos 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "restart",
+					"sid": 803780243458521
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 164953916154089,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 213653581993327
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "gameOver",
+					"sid": 540276254284238,
+					"parameters": {
+						"animation": "\"game over\""
+					}
+				}
+			],
+			"actions": [],
+			"sid": 559590632566073
+		}
+	],
+	"sid": 207858469888419
+}
