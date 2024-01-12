@@ -54,7 +54,10 @@
 			"restart",
 			"pradera",
 			"Sprite",
-			"cruzar1"
+			"cruzar1",
+			"fondoMazmorra",
+			"wrongAnswer",
+			"icono"
 		],
 		"subfolders": []
 	},
@@ -68,6 +71,7 @@
 		"items": [
 			"Escena 1",
 			"Escena 2",
+			"pregunta 2",
 			"finalboss",
 			"fin del juego",
 			"final bueno del juego"
@@ -80,7 +84,8 @@
 			"pregunta 1",
 			"Hoja de eventos 3",
 			"Hoja de eventos 4",
-			"Hoja de eventos 5"
+			"Hoja de eventos 5",
+			"pregunta 2"
 		],
 		"subfolders": []
 	},

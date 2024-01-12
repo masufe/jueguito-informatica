@@ -58,6 +58,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "wrongAnswer",
+					"sid": 985438932153959,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 431426530105922
@@ -205,13 +213,109 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 115904710939409,
+					"sid": 823388060113109,
 					"parameters": {
-						"layout": "finalboss"
+						"layout": "pregunta 2"
 					}
 				}
 			],
 			"sid": 686773173748512
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "seis",
+					"sid": 650668896961906
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "wrongAnswer",
+					"sid": 566171173025767,
+					"parameters": {
+						"instance-variable": "intentos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 824958871290068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "doce",
+					"sid": 602109313329675
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "wrongAnswer",
+					"sid": 847739890786436,
+					"parameters": {
+						"instance-variable": "intentos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 347222307225891
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "wrongAnswer",
+					"sid": 253206620964806,
+					"parameters": {
+						"instance-variable": "intentos",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "wrongAnswer",
+					"sid": 204878019241427,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 104489677337791
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "wrongAnswer",
+					"sid": 679166984302899,
+					"parameters": {
+						"instance-variable": "intentos",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 684999706069871,
+					"parameters": {
+						"layout": "fin del juego"
+					}
+				}
+			],
+			"sid": 461856327322591
 		}
 	],
 	"sid": 692690501889951
