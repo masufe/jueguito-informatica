@@ -1,0 +1,17 @@
+{
+	"name": "wrongAnswer",
+	"plugin-id": "Text",
+	"sid": 469386041896573,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "intentos",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 829241873215560
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
