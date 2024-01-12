@@ -5,6 +5,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 596010547906294
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 670259769734635,
+					"parameters": {
+						"audio-file": "tomp3.cc -  Video game Music No Copyright  Breaking the siege by Arthur Vyncke ",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 673368196715991
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-clicked",
 					"objectClass": "start",
 					"sid": 388687860366398
@@ -27,6 +52,33 @@
 			"conditions": [],
 			"actions": [],
 			"sid": 578762563649749
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "AJUSTES",
+					"sid": 832844329783825
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 832270544566187,
+					"parameters": {
+						"layout": "INTERFAZ"
+					}
+				}
+			],
+			"sid": 264076851315216
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 526883966509694
 		}
 	],
 	"sid": 350803252569721

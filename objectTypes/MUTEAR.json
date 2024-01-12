@@ -1,0 +1,58 @@
+{
+	"name": "MUTEAR",
+	"plugin-id": "Sprite",
+	"sid": 686692294637041,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 66,
+						"height": 57,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6380598,
+						"collisionPoly": {
+							"points": [
+								0.5303030303030303,
+								0.3333333333333333,
+								0.5757575757575758,
+								0.3333333333333333,
+								0.6818181818181818,
+								0.38596491228070173,
+								0.6515151515151515,
+								0.5789473684210527,
+								0.5757575757575758,
+								0.6666666666666666,
+								0.42424242424242425,
+								0.6666666666666666,
+								0.3787878787878788,
+								0.5614035087719298,
+								0.3939393939393939,
+								0.40350877192982454
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 409825508450148,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

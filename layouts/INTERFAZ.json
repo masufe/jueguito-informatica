@@ -1,5 +1,5 @@
 {
-	"name": "final bueno del juego",
+	"name": "INTERFAZ",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "pradera",
+					"type": "INTERFAZ",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,14 +15,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 42,
+					"uid": 9,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 431,
-						"y": 243,
-						"width": 879,
-						"height": 531,
+						"x": 425,
+						"y": 237.5,
+						"width": 850,
+						"height": 485,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -36,36 +36,7 @@
 					}
 				},
 				{
-					"type": "Prota",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Prota",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 43,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 406,
-						"y": 391,
-						"width": 170.38536807269085,
-						"height": 134.4878067272424,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
+					"type": "SALIR",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -73,14 +44,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 44,
+					"uid": 46,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 549,
-						"y": 85,
-						"width": 271,
-						"height": 218.00000000000003,
+						"x": 786,
+						"y": 36,
+						"width": 91,
+						"height": 80,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -94,10 +65,68 @@
 					}
 				},
 				{
-					"type": "restart",
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 47,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 433,
+						"y": 346,
+						"width": 667,
+						"height": 462,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ALTAVOZ",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 381,
+						"y": 339,
+						"width": 265,
+						"height": 258,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón",
 					"properties": {
 						"type": "button",
-						"text": "Re-start",
+						"text": "OK",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -106,14 +135,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 45,
+					"uid": 49,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 575,
-						"y": 143,
-						"width": 72,
-						"height": 24,
+						"x": 503,
+						"y": 309,
+						"width": 34,
+						"height": 37,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -123,9 +152,38 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "MUTEAR",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 518,
+						"y": 329,
+						"width": 281,
+						"height": 247,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 658428898277815,
+			"sid": 163051544560084,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -136,9 +194,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				1,
+				1,
+				1,
 				1
 			],
 			"isTransparent": false,
@@ -154,7 +212,7 @@
 			"global": false
 		}
 	],
-	"sid": 761566905746459,
+	"sid": 618814780911728,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -163,5 +221,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 5"
+	"eventSheet": "Hoja de eventos 6"
 }

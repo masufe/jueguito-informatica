@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Button",
 			"name": "Botón",
 			"author": "Scirra",
@@ -24,6 +31,13 @@
 			"type": "plugin",
 			"id": "Text",
 			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "UserMedia",
+			"name": "Multimedia",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -55,7 +69,18 @@
 			"gameOver",
 			"restart",
 			"pradera",
-			"Sprite"
+			"Sprite",
+			"Sprite2",
+			"AJUSTES",
+			"pantallita",
+			"INTERFAZ",
+			"ALTAVOZ",
+			"sinsonido",
+			"MUTEAR",
+			"SALIR",
+			"Multimedia",
+			"Audio",
+			"Botón"
 		],
 		"subfolders": []
 	},
@@ -71,7 +96,8 @@
 			"Escena 2",
 			"finalboss",
 			"fin del juego",
-			"final bueno del juego"
+			"final bueno del juego",
+			"INTERFAZ"
 		],
 		"subfolders": []
 	},
@@ -81,7 +107,8 @@
 			"Hoja de eventos 2",
 			"Hoja de eventos 3",
 			"Hoja de eventos 4",
-			"Hoja de eventos 5"
+			"Hoja de eventos 5",
+			"Hoja de eventos 6"
 		],
 		"subfolders": []
 	},
@@ -95,7 +122,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "tomp3.cc -  Video game Music No Copyright  Breaking the siege by Arthur Vyncke .webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 118540695450329,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

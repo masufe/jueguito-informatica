@@ -1,0 +1,58 @@
+{
+	"name": "ALTAVOZ",
+	"plugin-id": "Sprite",
+	"sid": 606175488311923,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 66,
+						"height": 57,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8547119,
+						"collisionPoly": {
+							"points": [
+								0.3333333333333333,
+								0.2982456140350877,
+								0.3787878787878788,
+								0.2982456140350877,
+								0.4696969696969697,
+								0.42105263157894735,
+								0.45454545454545453,
+								0.543859649122807,
+								0.3787878787878788,
+								0.631578947368421,
+								0.3333333333333333,
+								0.631578947368421,
+								0.18181818181818182,
+								0.5263157894736842,
+								0.19696969696969696,
+								0.3684210526315789
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 222006165162978,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
