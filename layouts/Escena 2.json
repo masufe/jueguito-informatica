@@ -51,7 +51,7 @@
 						"x": 614,
 						"y": 382,
 						"width": 90.743875362442,
-						"height": 107.89153082662176,
+						"height": 107.89153082662177,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -227,7 +227,7 @@
 					"world": {
 						"x": 254,
 						"y": 121,
-						"width": 220,
+						"width": 219.99999999999997,
 						"height": 237,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -498,7 +498,54 @@
 			"name": "pregunta 2",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "Intentos",
+					"properties": {
+						"text": "Te has equivocado, JAJAJA!!!\nTe quedan 2 intentos",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 7,
+					"instanceVariables": {
+						"Intentos": 3
+					},
+					"behaviors": {},
+					"world": {
+						"x": 485,
+						"y": 258,
+						"width": 223,
+						"height": 71,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 565565525233305,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

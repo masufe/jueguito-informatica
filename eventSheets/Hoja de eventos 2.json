@@ -5,6 +5,27 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 425418942664016
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Intentos",
+					"sid": 289134187816249,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 834190620793031
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "is-visible",
 					"objectClass": "dialogo1",
 					"sid": 195741179177332
@@ -188,6 +209,128 @@
 				}
 			],
 			"sid": 158504838985875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "doce",
+					"sid": 226734738724479
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Intentos",
+					"sid": 625260833456924,
+					"parameters": {
+						"instance-variable": "Intentos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 586585002411574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "seis",
+					"sid": 983401001777707
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Intentos",
+					"sid": 760239532099204,
+					"parameters": {
+						"instance-variable": "Intentos",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 742421077591050
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Intentos",
+					"sid": 556089739611586,
+					"parameters": {
+						"instance-variable": "Intentos",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Intentos",
+					"sid": 680279716910190,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 425185581686057
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Intentos",
+					"sid": 945694453643355,
+					"parameters": {
+						"instance-variable": "Intentos",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Intentos",
+					"sid": 119880663223351,
+					"parameters": {
+						"text": "\"Te has equivocado, JAJAJA!!!\r\nTe queda 1 intento\""
+					}
+				}
+			],
+			"sid": 847902055685165
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Intentos",
+					"sid": 164476472546097,
+					"parameters": {
+						"instance-variable": "Intentos",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 397683367617529,
+					"parameters": {
+						"layout": "fin del juego"
+					}
+				}
+			],
+			"sid": 642919682733688
 		}
 	],
 	"sid": 692690501889951

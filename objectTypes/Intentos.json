@@ -1,0 +1,17 @@
+{
+	"name": "Intentos",
+	"plugin-id": "Text",
+	"sid": 324371389224400,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Intentos",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 117995379980664
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

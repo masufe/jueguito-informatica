@@ -55,7 +55,9 @@
 			"gameOver",
 			"restart",
 			"pradera",
-			"Sprite"
+			"Sprite",
+			"Intentos",
+			"Texto"
 		],
 		"subfolders": []
 	},
