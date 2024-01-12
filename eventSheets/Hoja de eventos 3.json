@@ -50,6 +50,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cruzar1",
+					"sid": 548546815729885,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 872788284515666
@@ -132,9 +140,70 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R1FinalBoss",
+					"sid": 744201397794352,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R3FinalBoss",
+					"sid": 188498414486362,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "siguiente",
+					"sid": 112421718108331,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "R2FinalBoss",
+					"sid": 617145509753865,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cruzar1",
+					"sid": 464676871272725,
+					"parameters": {
+						"visibility": "visible"
+					}
 				}
 			],
 			"sid": 440617921316656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "cruzar1",
+					"sid": 553950622353117
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 286509952523577,
+					"parameters": {
+						"layout": "final bueno del juego"
+					}
+				}
+			],
+			"sid": 623871413526503
 		}
 	],
 	"sid": 733166641704492
