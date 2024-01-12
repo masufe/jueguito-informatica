@@ -1,5 +1,5 @@
 {
-	"name": "Hoja de eventos 2",
+	"name": "pregunta 1",
 	"events": [
 		{
 			"eventType": "block",
@@ -11,14 +11,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "dialogo2",
-					"sid": 701884385355860,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
 				{
 					"id": "set-visible",
 					"objectClass": "doce",
@@ -58,38 +50,17 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
-				}
-			],
-			"sid": 431426530105922
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "siguiente",
-					"sid": 927937406797175
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "dialogo1",
-					"sid": 845086819557494,
-					"parameters": {
-						"visibility": "invisible"
-					}
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "dialogo2",
-					"sid": 907190016731663,
+					"objectClass": "cruzar1",
+					"sid": 748120776888932,
 					"parameters": {
-						"visibility": "visible"
+						"visibility": "invisible"
 					}
 				}
 			],
-			"sid": 681289291806391
+			"sid": 431426530105922
 		},
 		{
 			"eventType": "block",
@@ -101,14 +72,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "dialogo2",
-					"sid": 183417336667455,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
 				{
 					"id": "set-visible",
 					"objectClass": "preguntaUno",
@@ -139,6 +102,14 @@
 					"sid": 427541004418852,
 					"parameters": {
 						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "dialogo1",
+					"sid": 626706480503325,
+					"parameters": {
+						"visibility": "invisible"
 					}
 				}
 			],
@@ -185,9 +156,62 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "seis",
+					"sid": 518469488368367,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "doce",
+					"sid": 338077524846452,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "cruzar1",
+					"sid": 902777342231414,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "siguiente",
+					"sid": 204901700462485,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 158504838985875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "cruzar1",
+					"sid": 936232644976046
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 115904710939409,
+					"parameters": {
+						"layout": "finalboss"
+					}
+				}
+			],
+			"sid": 686773173748512
 		}
 	],
 	"sid": 692690501889951

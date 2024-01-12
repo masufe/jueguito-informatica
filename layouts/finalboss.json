@@ -449,6 +449,37 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "cruzar1",
+					"properties": {
+						"type": "button",
+						"text": "*cruzar*",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 399,
+						"y": 193,
+						"width": 72,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 731757041382284,

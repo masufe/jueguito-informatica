@@ -39,7 +39,6 @@
 			"start",
 			"fondoMazmorra",
 			"dialogo1",
-			"dialogo2",
 			"siguiente",
 			"preguntaUno",
 			"ocho",
@@ -55,7 +54,8 @@
 			"gameOver",
 			"restart",
 			"pradera",
-			"Sprite"
+			"Sprite",
+			"cruzar1"
 		],
 		"subfolders": []
 	},
@@ -78,7 +78,7 @@
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2",
+			"pregunta 1",
 			"Hoja de eventos 3",
 			"Hoja de eventos 4",
 			"Hoja de eventos 5"
